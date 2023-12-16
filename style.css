@@ -1,0 +1,53 @@
+body {
+    /* text-align: center;
+    padding: 50px;
+    font-family: 'Arial', sans-serif; */
+    transition: background-image 1s ease;
+    animation: backgroundAnimation 8s infinite alternate; /* تحديد خصائص الanimation */
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-image: url(../css/beach.jpg);
+        
+     
+    }
+    100% {
+    
+        background-image: url(../css/sand2.jpg);
+     
+}
+}
+
+
+
+
+
+
+#rectangle{
+    background-image: url(../css/beach.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    border: none;
+    border-radius: 10px;
+}
+#info .edit{
+   color:  #CF7D44;
+   font-weight: bolder;
+}
+#info .edit2{
+    color: #557873;
+    font-size: large;
+    font-weight: bold;
+}
+#info button{
+    background-color: #CF7D44;
+    border: none    ;
+}
+
+#info button:hover{
+    background-color:#557873 ;
+    
+}
+
